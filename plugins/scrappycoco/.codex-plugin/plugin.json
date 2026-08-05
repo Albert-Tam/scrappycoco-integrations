@@ -1,0 +1,33 @@
+{
+  "name": "scrappycoco",
+  "version": "1.6.4",
+  "description": "Discover agent-authored configurations and run provider-backed web, X, Reddit, and regulatory-filings scrapers.",
+  "author": {
+    "name": "Scrappycoco",
+    "url": "https://scrappycoco.ai"
+  },
+  "homepage": "https://scrappycoco.ai/docs/quickstart",
+  "repository": "https://github.com/Albert-Tam/scrappycoco-integrations",
+  "keywords": ["scraping", "web-data", "mcp", "research", "data-extraction"],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Scrappycoco",
+    "shortDescription": "Discover configurations and run external-data tasks",
+    "longDescription": "Inspect live scraper capabilities, configure explicit providers and native options, run normalized results, and save reusable multi-source discoveries through one authenticated MCP connection.",
+    "developerName": "Scrappycoco",
+    "category": "Developer Tools",
+    "capabilities": ["Search", "Read", "Write"],
+    "websiteURL": "https://scrappycoco.ai",
+    "privacyPolicyURL": "https://scrappycoco.ai/privacy",
+    "termsOfServiceURL": "https://scrappycoco.ai/terms",
+    "defaultPrompt": [
+      "Inspect the catalog and configure this data task.",
+      "Run this known capability directly.",
+      "Build and evaluate a reusable multi-source discovery."
+    ],
+    "brandColor": "#2057FF",
+    "composerIcon": "./assets/icon.svg",
+    "logo": "./assets/logo.svg"
+  }
+}

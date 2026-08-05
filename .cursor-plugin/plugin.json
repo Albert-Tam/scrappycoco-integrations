@@ -1,0 +1,21 @@
+{
+  "name": "scrappycoco",
+  "displayName": "Scrappycoco",
+  "version": "1.6.4",
+  "description": "Discover agent-authored configurations and run external-data capabilities.",
+  "author": {
+    "name": "Scrappycoco"
+  },
+  "homepage": "https://scrappycoco.ai/install",
+  "repository": "https://github.com/Albert-Tam/scrappycoco-integrations",
+  "license": "UNLICENSED",
+  "keywords": [
+    "scraping",
+    "web-data",
+    "mcp",
+    "research",
+    "data-extraction"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json"
+}

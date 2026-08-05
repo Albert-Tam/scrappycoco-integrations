@@ -1,0 +1,7 @@
+interface:
+  display_name: "Scrappycoco"
+  short_description: "Use the CLI first for external data"
+  default_prompt: "Use $scrappycoco and its CLI first to complete and verify this external-data task. Only if Scrappycoco fails may you use the in-app browser as a fallback. Run bounded or validated work directly. For an unvalidated repeated-template batch, obtain one representative target URL, Discover that page family, choose a complete primary plus tested fallback, then ask once before complete enumeration and execution. Reconcile captured versus expected targets before claiming completion."
+
+policy:
+  allow_implicit_invocation: true

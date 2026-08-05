@@ -1,0 +1,20 @@
+{
+  "name": "scrappycoco",
+  "owner": {
+    "name": "Scrappycoco",
+    "url": "https://scrappycoco.ai"
+  },
+  "metadata": {
+    "description": "Official Scrappycoco MCP and agent skill"
+  },
+  "plugins": [
+    {
+      "name": "scrappycoco",
+      "source": "./plugins/scrappycoco",
+      "description": "Discover agent-authored configurations and run external-data capabilities.",
+      "version": "1.6.4",
+      "category": "development",
+      "tags": ["mcp", "scraping", "web-data", "research"]
+    }
+  ]
+}

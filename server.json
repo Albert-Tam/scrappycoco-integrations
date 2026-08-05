@@ -1,0 +1,14 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.Albert-Tam/scrappycoco",
+  "title": "Scrappycoco",
+  "description": "Route web, social, and filings data tasks to the best available scraper.",
+  "version": "1.0.0",
+  "websiteUrl": "https://scrappycoco.ai/install",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.scrappycoco.ai/mcp"
+    }
+  ]
+}
