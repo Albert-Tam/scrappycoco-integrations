@@ -1,0 +1,20 @@
+{
+  "name": "scrappycoco",
+  "interface": {
+    "displayName": "Scrappycoco"
+  },
+  "plugins": [
+    {
+      "name": "scrappycoco",
+      "source": {
+        "source": "local",
+        "path": "./plugins/scrappycoco"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    }
+  ]
+}

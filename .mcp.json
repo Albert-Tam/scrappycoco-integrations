@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "scrappycoco": {
+      "type": "http",
+      "url": "https://api.scrappycoco.ai/mcp"
+    }
+  }
+}
