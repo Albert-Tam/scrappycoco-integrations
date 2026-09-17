@@ -1,0 +1,23 @@
+name: Validate skill
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - run: pip install PyYAML
+      - run: python scripts/quick_validate.py skills/scrappycoco
+      - run: npx --yes skills add . --skill scrappycoco --full-depth -g -y
+      - run: npx --yes skills list -g --json > installed-skills.json
+      - run: python -c "import json; data=json.load(open('installed-skills.json')); assert any(item['name'] == 'scrappycoco' for item in data)"
