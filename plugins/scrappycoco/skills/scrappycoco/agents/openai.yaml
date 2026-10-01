@@ -1,0 +1,7 @@
+interface:
+  display_name: "Scrappycoco"
+  short_description: "Use the CLI first for external data"
+  default_prompt: "Use $scrappycoco to inspect the relevant live capability, run bounded research within my task and limits, and return verified results with saved evidence."
+
+policy:
+  allow_implicit_invocation: true

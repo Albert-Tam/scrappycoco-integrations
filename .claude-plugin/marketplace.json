@@ -1,0 +1,24 @@
+{
+  "name": "scrappycoco",
+  "owner": {
+    "name": "Scrappycoco",
+    "url": "https://scrappycoco.ai"
+  },
+  "metadata": {
+    "description": "Official Scrappycoco MCP and agent skill"
+  },
+  "plugins": [
+    {
+      "name": "coco",
+      "source": "./plugins/coco",
+      "description": "Your Chief of Staff, with your VP of Sales included.",
+      "version": "0.2.4",
+      "category": "productivity",
+      "tags": [
+        "chief-of-staff",
+        "sales",
+        "goals"
+      ]
+    }
+  ]
+}

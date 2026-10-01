@@ -1,0 +1,13 @@
+{
+  "name": "coco",
+  "version": "0.2.4",
+  "description": "Your Chief of Staff: share a goal and bring in your VP of Sales or Chief Marketing Officer to do the work inside your AI client.",
+  "author": {
+    "name": "Scrappycoco",
+    "url": "https://scrappycoco.ai"
+  },
+  "homepage": "https://scrappycoco.ai/coco/install.md",
+  "repository": "https://github.com/Albert-Tam/scrappycoco-integrations",
+  "license": "UNLICENSED",
+  "skills": "./skills/"
+}

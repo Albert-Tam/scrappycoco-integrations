@@ -1,0 +1,19 @@
+{
+  "name": "scrappycoco",
+  "interface": {
+    "displayName": "Scrappycoco"
+  },
+  "plugins": [
+    {
+      "name": "coco",
+      "source": {
+        "source": "local",
+        "path": "./plugins/coco"
+      },
+      "policy": {
+        "installation": "AVAILABLE"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

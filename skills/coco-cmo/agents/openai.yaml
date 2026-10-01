@@ -1,0 +1,6 @@
+interface:
+  display_name: "Coco · Chief Marketing Officer"
+  short_description: "Build evidence-backed campaigns and creative"
+  default_prompt: "Use $coco-cmo to turn my marketing goal into useful research, campaign assets and a measurable next step."
+policy:
+  allow_implicit_invocation: true

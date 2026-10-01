@@ -1,0 +1,13 @@
+{
+  "name": "coco-cmo",
+  "version": "0.1.0",
+  "description": "Coco Chief Marketing Officer: evidence-backed marketing research, campaigns and creative in your AI client.",
+  "author": {
+    "name": "Scrappycoco",
+    "url": "https://scrappycoco.ai"
+  },
+  "homepage": "https://scrappycoco.ai/coco/vp-sales/install.md",
+  "repository": "https://github.com/Albert-Tam/scrappycoco-integrations",
+  "license": "UNLICENSED",
+  "skills": "./skills/"
+}

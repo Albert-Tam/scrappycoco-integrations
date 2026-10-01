@@ -1,0 +1,13 @@
+{
+  "name": "coco-vp-sales",
+  "version": "0.2.3",
+  "description": "A proactive VP of Sales in your AI client: shared goals, qualified pipeline, outreach drafts and deal reviews.",
+  "author": {
+    "name": "Scrappycoco",
+    "url": "https://scrappycoco.ai"
+  },
+  "homepage": "https://scrappycoco.ai/coco/vp-sales/install.md",
+  "repository": "https://github.com/Albert-Tam/scrappycoco-integrations",
+  "license": "UNLICENSED",
+  "skills": "./skills/"
+}

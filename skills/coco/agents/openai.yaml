@@ -1,0 +1,6 @@
+interface:
+  display_name: "Coco · Chief of Staff"
+  short_description: "Turn your goal into work with the right specialist"
+  default_prompt: "Use $coco as my Chief of Staff: reuse my context, route my goal to the relevant specialist, and start useful work through its execution guide when research is needed."
+policy:
+  allow_implicit_invocation: true
